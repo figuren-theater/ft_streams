@@ -1,0 +1,150 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+/*
+  ////////////////////////////////////////////////////////////////////
+  ////////////// Ft_streams Submission Form //////////////////////////
+  ////////////////////////////////////////////////////////////////////
+*/
+/*  .wizard {
+ height: auto;
+ width: 100%;
+ overflow: hidden;
+ position: relative;
+ padding: 1em;
+}
+
+.step {
+ height: auto;
+ width: 100%;
+ border: none;
+ background: white;
+}
+
+.step[id] {
+ sposition:fixed;
+ sleft:100%;
+ top:0;
+ transition: left .5s ease-out;
+ transform: translateZ(0);
+}
+
+x.step:first-child:not(:target),
+x.step:target ~.step,
+.step:not(:target) {
+  border: 0;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+.step:first-child,
+.step:target,
+form.invalid .step {
+ left:0;
+ width: 100%;
+ height: auto;
+ overflow:auto;
+ padding: 0 1em;
+
+  border: inherit;
+  margin: inherit;
+  padding: inherit;
+  width: inherit;
+  height: inherit;
+  overflow: inherit;
+  clip: inherit;
+  position: inherit;
+}
+
+form.invalid .step__link {
+ display: none;
+}
+*/
+textarea {
+  resize: vertical;
+}
+
+.ft_stream__submit .wpcf7 {
+  /* copy from .alignfull START */
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  max-width: 100vw;
+  position: relative;
+  width: 100%;
+  /* copy from .alignfull END*/
+}
+  .ft_stream__submit fieldset {
+    background-color: #fafafa;
+  }
+  .ft_stream__submit fieldset > p:last-child {
+    margin: 1em 0 -2em 0;
+  }
+  .ft_stream__submit select {
+    height: 2.25em;
+    width: 3em;
+    text-align: right;
+  }
+
+  .ft_stream__submit fieldset.step > .wp-block-columns{
+    padding: 0;
+    margin-top: 0;
+  }
+
+/* //////////////////////  'cf7-repeatable-fields' */
+.wpcf7-field-group {
+  position: relative;
+}
+
+.wpcf7-field-group-add,
+.wpcf7-field-group-remove {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.wpcf7-field-group-add {
+  display: none;
+}
+
+.wpcf7-field-group:last-child:not(:first-child) {
+  margin-bottom: 5em;
+}
+.wpcf7-field-group:last-child .wpcf7-field-group-add {
+  display: initial;
+  top: 100%;
+  top: calc(100% + 1em);
+  bottom: auto;
+  right: -6px;
+}
+.wpcf7-field-group:last-child:first-child .wpcf7-field-group-add {
+  top: auto;
+  bottom: -4px;
+  right: -4px;
+}
+
+
+
+
+/*
+  ////////////////////////////////////////////////////////////////////
+  ////////////// Ft_streams Singular-View ////////////////////////////
+  ////////////////////////////////////////////////////////////////////
+*/
+
+.event-category-streams.has-post-thumbnail .post-inner {
+  padding-top: 0;
+}
+.event-category-streams .social-menu {
+  justify-content: flex-end;
+}
